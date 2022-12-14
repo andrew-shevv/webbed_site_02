@@ -1,0 +1,171 @@
+* {
+    margin: 0;
+    padding: 0;
+    outline: none;
+}
+
+body {
+    background: #ffffff;
+}
+
+a{   
+    text-decoration: none;
+}
+
+.header {
+    padding: 40px;
+}
+
+.container {
+    margin: 0 auto;
+    justify-content: center;
+    width: 1170px;
+}
+
+.flex-box {
+    display: flex;
+    flex-wrap: nowrap;
+}
+
+.company {
+    display: flex;
+    flex-wrap: nowrap;
+}
+
+.company-name {
+    font-family: 'Open Sans', sans-serif;
+    font-size: 24px;
+    line-height: 28px;
+    font-style: normal;
+    font-weight: 700;
+    padding: 5px 14px;
+}
+
+.menu {
+    display: flex;
+    flex-wrap: nowrap;
+    padding-left: 346px;
+}
+
+.nav {
+    padding: 11px;
+}
+
+.header-link {
+    font-family: 'Open Sans', sans-serif;
+    font-size: 14px;
+    line-height: 16px;
+    font-style: normal;
+    font-weight: 600;
+    color: #000000;
+    padding: 11px;
+}
+
+.header-button {
+    width: 120px;
+    height: 40px;
+    font-family: 'Open Sans', sans-serif;
+    font-size: 12px;
+    line-height: 14px;
+    font-style: normal;
+    font-weight: 600;
+    color: #ffffff;
+    background: #F25822;
+    border-radius: 30px;
+}
+
+.main-txt {
+    width: 543px;
+    height: 374px;
+    padding-top: 148px;
+}
+
+.title {
+    font-family: 'Open Sans', sans-serif;
+    font-size: 58px;
+    line-height: 70px;
+    font-style: normal;
+    font-weight:  700;
+    padding-left: 21px;
+    width: 522px;
+    background-image: url(img/Ellipse\ 2.svg);
+    background-repeat: no-repeat;
+    background-size: 310px 73px;
+    background-position: 0 73px;
+}
+
+.subtitle {
+    font-family: 'Open Sans', sans-serif;
+    font-size: 20px;
+    line-height: 23px;
+    font-style: normal;
+    font-weight:  500;
+    color: #888888;
+    padding: 17px 21px;
+    width: 466px;
+}
+
+.main-buttons {
+    display: flex;
+    flex-wrap: nowrap;
+    width: 302px;
+    height: 50px;
+    padding: 37px 23px;
+}
+
+.main-button {
+    width: 140px;
+    font-family: 'Open Sans', sans-serif;
+    font-size: 14px;
+    line-height: 18px;
+    font-style: normal;
+    font-weight: 700;
+    color: #ffffff;
+    background: #F25822;
+    box-shadow: 4px 4px 8px
+    rgba(242, 88, 34, 0.2);
+    border-radius: 50px;
+}
+
+.main-video {
+    display: flex;
+    flex-wrap: nowrap;
+    width: 135px;
+    height: 30px;
+    padding: 10px 0 10px 27px;
+    
+}
+
+.video-txt {
+    margin: 5px;
+    font-family: 'Open Sans', sans-serif;
+    font-size: 14px;
+    line-height: 18px;
+    font-style: normal;
+    font-weight: 700;
+    color: #aaaaaa;
+}
+
+.video-img {
+    width: 15px;
+    height: 15px;
+    padding: 7px;
+    margin-right: 10px;
+    background-image: url(img/Ellipse\ 1.svg);
+    background-repeat: no-repeat;
+    background-size: 28px;
+}
+
+.main-img {
+    padding: 82px 40px;
+}
+
+.container-brands {
+    margin: 0 auto;
+    justify-content: center;
+    width: 1200px;
+}
+
+.brand-img {
+    padding: 97px 24px;
+}
